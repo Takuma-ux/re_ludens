@@ -1,0 +1,279 @@
+
+.Background {
+
+    margin: 0 60px 0 0;
+    padding: 116px 0 0;
+    background-color: #fff;
+}
+.Home-Header {
+    position:relative;
+    top:-300px;
+    width: 1368px;
+    height: 900px;
+    margin: 0 0 0 72px;
+    background-image: radial-gradient(circle at 11% 11%, #9edfd2, #fceebb 69%);
+}
+.Vector-7 {
+    position:relative;
+    top: -100px;
+    left:0px;
+    width: 2.0px;
+    height: 0.5px;
+    margin: 0 3px 5px 4.9px;
+
+  }
+  .user{
+    position:relative;
+    top: -40px;
+    left:-15px;
+    width: 36px;
+    height: 36px;
+    margin: 0 18px 1px;
+  }
+  .Metamask-Logo {
+    position:relative;
+    top: 0px;
+    left:0px;
+    width: 25px;
+    height: 25px;
+    flex-grow: 0;
+  }
+  .Home {
+    position:relative;
+    top: 120px;
+    left:0px;
+    width: 20px;
+    height: 17px;
+
+    background-color: #c4c4c4;
+  }
+  .Pencil {
+    position:relative;
+    top: 160px;
+    left:-10px;
+    width: 16px;
+    height: 16px;
+    flex-grow: 0;
+    margin: 0 0 1px 2.5px;
+  }
+  .Nav-Collapsed-Inactive {
+    position:relative;
+    top: 250px;
+    left:-40px;
+    width: 30px;
+    height: 48px;
+    flex-grow: 0;
+
+    background-color: #fff;
+  }
+  .Page-Title {
+    position:absolute;
+    top: 24px;
+    left:104px;
+    width: 157px;
+    height: 40px;
+    font-family: HelveticaNeue;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #fff;
+  }
+  .Subhead {
+    position: absolute;
+    top:64px;
+    left: 104px;
+    width: 67px;
+    height: 20px;
+ 
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  }
+  .Subhead_1 {
+    position:absolute;
+    top: 158px;
+    left:105px;
+    width: 293px;
+    height: 20px;
+    flex-grow: 0;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  } 
+  ._Step-first {
+    position:absolute;
+    top:50px;
+    left: 498px;
+    width: 170px;
+    height: 44px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+    padding: 0;
+  }
+  
+  .Q-Question {
+    position:absolute;
+    top:8px;
+    left:21px;
+    width: 108px;
+    height: 40px;
+    flex-grow: 0;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #757575;
+  }
+  .A-Type-answer-here {
+    position:absolute;
+    top:248px;
+    left:239px;
+    width: 140px;
+    height: 40px;
+    flex-grow: 0;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #757575;
+  }
+  .Rectangle-7 {
+    position:absolute;
+    top:238px;
+    left:219px;
+    width: 1073px;
+    height: 300px;
+    flex-grow: 0;
+    margin: 30px 0;
+    padding: 10px 913px 250px 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .Rectangle-11 {
+    position:absolute;
+    top: 200px;
+    left:104px;
+    width: 374px;
+    height: 154px;
+    flex-grow: 0;
+
+    padding: 20.1px 0 33.4px 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .Rectangle-11_1 {
+    position:absolute;
+    top: 450px;
+    left:104px;
+    width: 374px;
+    height: 154px;
+    flex-grow: 0;
+
+    padding: 20.1px 0 33.4px 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .Name-of-DAO-1 {
+   position:absolute;
+   top:18px;
+   left:20px;
+    width: 111px;
+    height: 20px;
+    flex-grow: 0;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #757575;
+  }
+
+  .Details-about-DAO-1user-abilities {
+    position: absolute;
+    top:50px;
+    left:20px;
+    width: 226px;
+    height: 20px;
+    flex-grow: 0;
+
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #757575;
+  }  
+  .Rectangle-6 {
+    position: absolute;
+    top:152px;
+    left:219px;
+    width: 1073px;
+    height: 56px;
+    flex-grow: 0;
+
+    padding: 8px 944px 8px 21px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .Rectangle-12 {
+    position: absolute;
+    top:200px;
+    left:540px;
+    width: 374px;
+    height: 154px;
+    flex-grow: 0;
+
+    padding: 20.1px 0 33.4px 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .Rectangle-12-1 {
+    position: absolute;
+    top:450px;
+    left:540px;
+    width: 225px;
+    height: 0px;
+    flex-grow: 0;
+
+    padding: 0px 129px 209px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  

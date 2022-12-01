@@ -1,0 +1,83 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Deploying Counter to Polygon</title>
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        <link rel="stylesheet" href="style2.css">
+        
+    </head>
+    <body>
+        <div class="assignment-closed---main">
+            <div class="Background">
+                <div class="Vector-7"><img src="./img/ludenslogo.png" alt="Metamask-Logo"width="60" ></div>
+                <div class="user"><img src="./img/user.png" alt="Metamask-Logo"width="65" ></div>
+                <div class="Metamask-Logo"><img src="./img/MetaMask.jpeg" alt="Metamask-Logo"width="70" ></div>
+                <div class="Home"><img src="./img/home.png" alt="Metamask-Logo.png"width="65" ></div>
+                <button onclick="location.href='solve.html'"><div class="Pencil"><img src="./img/write.png" alt="Metamask-Logo.png"width="65" ></div></button>
+                <button onclick="location.href='grade.html'" ><div class="Nav-Collapsed-Inactive"><img src="./img/relationship.png" alt="Metamask-Logo"width="55" ></div></button>
+                
+            </div>
+            <div class="Home-Header">
+                <span class="Page-Title">
+                    Hello Alex,
+                  </span>
+                  <span class="Subhead">
+                    Let’s Play!
+                  </span>
+                    <span class="Subhead_1">
+                    Here’s a snapchot of your DAO contributions:
+                  </span>
+                <div class="Rectangle-11"><div class="Line-1"></div></div>
+                <div class="Rectangle-11_1">
+                    <span class="Name-of-DAO-1">
+                        Name of DAO #1
+                    </span>
+                    <span class="Details-about-DAO-1user-abilities">
+                        Details about DAO #1/user abilities?
+                      </span>
+                </div>
+                <div class="Rectangle-12"><div class="Line-1"></div></div>
+                <div class="Rectangle-12-1">                    <span class="Name-of-DAO-1">
+                    Name of DAO #1
+                </span>
+                <span class="Details-about-DAO-1user-abilities">
+                    Details about DAO #1/user abilities?
+                  </span></div></div>
+
+            </div>
+        </div>
+        <input type="button" onclick="location.href='create.html'" value="Create Question">
+
+        <script type="text/javascript">
+
+        //1.Connect metamask to our site.Get the user's address
+        (async ()=>{
+            if(window.ethereum){
+                await window.ethereum.send('eth_requestAccounts');
+                window.web3=new Web3(window.ethereum);
+
+                var accounts=await web3.eth.getAccounts();
+                account=accounts[0];
+            }
+        })();
+
+        //2.Deploy the bytecode!
+        const deploy = async (abi,bytecode)=>{
+            var deployingContract=new web3.eth.Contract(abi).deploy({
+                data:bytecode,
+                arguments:[]
+            });
+            var estimatedGas=await deployingContract.estimateGas();
+
+            var deployedContract = await deployingContract.send({
+                from:account,
+                gas: estimatedGas
+            })
+            console.log('Address of Contract - '+deployedContract.options.address);
+            return deployedContract.options.address;
+        }
+        </script>
+    </body>
+
+</html>
